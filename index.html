@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+  <title>Portofolio Prayoga Nugroho Pangestu Front End Dicoding</title>
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+  <header>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <H3>Prayoga Nugroho</H3>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Tentang Saya</a></li>
+          <li><a href="#pengalaman">Pengalaman</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#kontak">Kontak Saya</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Prayoga Nugroho</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Tentang Saya</a></li>
+          <li><a href="#pengalaman" onclick="toggleMenu()">Pengalaman</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#kontak" onclick="toggleMenu()">Kontak Saya</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <aside id="profile">
+      <div class="aside__text">
+        <h1 class="box"> Welcome To My Portfolio</h1>
+        <p class="aside__text__p1">Halo, Nama Saya</p>
+        <h1 class="title">Prayoga Nugroho Pangestu</h1>
+        <p class="aside__text__p2 otomatis-ketik">Frontend Developer</p>
+        <p class="aside__text__p1">
+          Saya adalah seorang pengembang web dan saya sangat bersemangat dan berdedikasi pada pekerjaan saya. Dengan
+          pengalaman 1 tahun sebagai pengembang web profesional,
+          saya telah memperoleh keterampilan dan pengetahuan yang diperlukan untuk membuat proyek Anda sukses. Saya
+          menikmati setiap langkah dari proses desain, mulai dari diskusi dan kolaborasi.
+        </p>
+        <br>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/CV PRAYOGA NUGROHO PANGESTU.pdf')">
+            Download My CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#kontak'">
+            Kontak Saya
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+            onclick="location.href='https://www.linkedin.com/in/prayoga-nugroho-pangestu/'" />
+          <img src="./assets/github.png" alt="My Github profile" class="icon"
+            onclick="location.href='https://github.com/prayoga23/'" />
+          <img src="./assets/instagram.png" alt="My instagram" class="icon"
+            onclick="location.href='https://www.instagram.com/prayoganugroho_/'" />
+          <img src="./assets/twitter.png" alt="My Twitter" class="icon"
+            onclick="location.href='https://x.com/pra97360'" />
+        </div>
+
+      </div>
+      <div class="aside__pic-container">
+        <img class="profile-kontak2" src="./assets/fotoku.png" alt="Prayoga Nugroho" />
+      </div>
+    </aside>
+    <aside id="about">
+      <p class="aside__text__p1">Ketahui Saya Lebih Lanjut</p>
+      <h1 class="title">Tentang Saya</h1>
+      <div class="aside-container">
+        <div class="aside__pic-container">
+          <img src="./assets/fotoku.png" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/pengalaman.png" alt="pengalaman icon" class="icon" />
+              <h3>Pengalaman</h3>
+              <p>1 Tahun <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Riwayat Pendidikan</h3>
+              <p>A.Md. Kom (Diploma III Teknologi Informasi Dan Komputer)</p>
+            </div>
+          </div>
+          <article>
+            <p style="text-align: justify;">
+              Saya adalah lulusan D3 dengan minat di bidang Teknologi Informasi dan Komputer.
+              Saya menempuh pendidikan di Universitas Brawijaya. Saya memiliki pengalaman dalam mengembangkan dan
+              mengimplementasikan designn,
+              menulis code program aplikasi dengan tampilan website Front-end yang indah dan back-end yang terstruktur
+              dan sesuai dengan alur
+              perancangan. Saya juga memiliki keahlian dalam bidang digital marketing, copywriter website, Microsoft
+              word, excel, dan Access
+              Point yang dapat mengelola data-data perusahaan yang sudah saya alami di perusahaan-perusahaan ternama. Di
+              dalam bahasa pemrograman
+              website saya lebih dominan di Bahasa Pemrograman Laravel PHP dengan menggunakan model MVC. Sedangkan
+              selain itu adalah Bahasa
+              Pemrograman Codeigniter 4 menggunakan metode HMVC. Untuk alat saya menggunakan VS Code, Docker, Linux,
+              Docker, MySQL. Memiliki
+              Pengalaman 1 tahun dalam proyek bahasa pemrograman PHP, Terbiasa dengan Git, Memiliki Pengetahuan yang
+              kuat tentang konsep REST
+              & Container. Saya juga Pembelajar yang cepat, pemecahan masalah yang baik, kerja sama tim dan keterampilan
+              analitis.
+            </p>
+        </div>
+        </article>
+      </div>
+      </div>
+    </aside>
+    <aside id="pengalaman">
+      <p class="aside__text__p1">Pengalaman Kerja</p>
+      <h1 class="title">Pengalaman</h1>
+      <div class="pengalaman-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <img src="./assets/logo.png" alt="Office icon" class="icon" />
+            <h2 class="pengalaman-sub-title">Web Developer</h2>
+            <p class="pengalaman-details">
+              PT. ReachU Solutions
+            </p>
+            <p class="pengalaman-details">
+              04 December, 2023 — 07 February, 2024
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <img src="./assets/logo_kemenag.png" alt="Office icon" class="icon" />
+            <h2 class="pengalaman-sub-title">Humas & Programmers</h2>
+            <p class="pengalaman-details">
+              UPT Asrama Haji Embarkasi Surabaya
+            </p>
+            <p class="pengalaman-details">
+              23 Mei, 2023 — 24 Agustus, 2023 (3 Bulan)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <img src="./assets/DIGTIVE-logo-e1550558111272.png" alt="Office icon" class="icon" />
+          <h2 class="pengalaman-sub-title">Web Frontend Developer Intern</h2>
+          <p class="pengalaman-details">
+            PT. Digtive Global Media
+          </p>
+          <p class="pengalaman-details">
+            1 July, 2021 — 31 October, 2021 (4 Bulan)
+          </p>
+        </div>
+        <div class="details-container color-container">
+          <img src="./assets/natusi.webp" alt="Office icon" class="icon" />
+          <h2 class="pengalaman-sub-title"> Internship</h2>
+          <p class="pengalaman-details">
+            CV. Natusi
+          </p>
+          <p class="pengalaman-details">
+            02 Januari - 28 Februari 2018 (2 Bulan)
+          </p>
+        </div>
+      </div>
+      </div>
+    </aside>
+    <aside id="projects">
+      <p class="aside__text__p1">Perjalanan Pengerjaan Saya</p>
+      <h1 class="title">Projects</h1>
+      <div class="pengalaman-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="pengalaman-sub-title project-title">Project 1</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="pengalaman-sub-title project-title">Project 2</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.jpeg" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="pengalaman-sub-title project-title">Project 3</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="load-more-container">
+        <a href="" class="btn btn-outline-primary">Load More</a>
+      </div>
+    </aside>
+    <aside id="kontak">
+      <p class="aside__text__p1">Hubungi Saya</p>
+      <h1 class="title">Kontak Saya</h1>
+      <div class="kontak-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <img src="./assets/whatsapp.png" alt="Phone icon" class="icon" />
+            <h2 class="pengalaman-sub-title">WhatsApp</h2>
+            <h2 class="pengalaman-details">+62 8990703408</h2>
+          </div>
+          <div class="details-container color-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon" />
+            <h2 class="pengalaman-sub-title">Email</h2>
+            <h2 class="pengalaman-details">
+              <u style="color: #3368a1;"><a href="mailto:prayoga2np@gmail.com">prayoga2np@gmail.com</a></u></h2>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+  <footer>
+    <p>Copyright &#169; 2024 Prayoga Nugroho Pangestu. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
